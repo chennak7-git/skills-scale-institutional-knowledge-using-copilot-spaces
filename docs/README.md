@@ -1,14 +1,14 @@
-# OctoAcme Project Management Process Overview
+# OctoAcme Project Management Documentation
 
-This repository organizes OctoAcme’s project management approach around a clear lifecycle: initiation, planning, execution, release, and retrospective. New work begins with a project one-pager that defines the business need, stakeholders, success metrics, timeline, risks, and resource assumptions. Once the initiative is approved, the team translates it into a prioritized backlog, identifies dependencies, aligns milestones, and establishes a concrete delivery plan. This keeps work measurable and intentional before the team commits to execution.
+This repository centralizes the core operating practices OctoAcme uses to manage projects from concept through delivery and continuous improvement. The team follows a clear lifecycle that begins with initiation and validation, moves into planning and backlog prioritization, then enters execution with defined milestones, quality checks, and stakeholder communication. Each phase is designed to keep work aligned with business value, reduce risk, and make decisions visible across the project.
 
-OctoAcme relies on clearly defined roles and shared accountability. The Project Manager coordinates delivery, schedules, risks, and communications; the Product Lead or Product Manager defines outcomes and prioritization; developers implement and test features; QA validates acceptance and quality; and stakeholders provide business context and approvals. The project team uses a consistent set of artifacts—such as the project charter, roadmap, backlog, definition of done, risk register, and retrospective notes—to reduce ambiguity and minimize reliance on any single person for critical project knowledge.
+OctoAcme’s process is grounded in clear roles and shared accountability. The Project Manager coordinates timelines, risks, and communications; the Product lead or Product Manager defines outcomes and prioritization; developers build and test the work; QA validates quality and acceptance criteria; and stakeholders provide input, approvals, and business context. The team relies on artifacts such as the project one-pager, backlog, definition of done, risk register, and release plan to reinforce common expectations and reduce single-person dependency.
 
-Communication is built into the team rhythm to keep work visible and aligned. OctoAcme recommends daily standups, weekly PM/Product syncs, milestone demos, and regular stakeholder updates, with escalation paths that move from the team to the PM, then to the Product Lead, and ultimately to sponsors when issues have major business impact. The team also keeps a single source of truth for project status, which helps stakeholders understand progress, blockers, decisions, and next steps without fragmented updates.
+Communication is a regular part of delivery rather than an afterthought. OctoAcme uses daily standups, weekly alignment meetings, milestone demos, and periodic stakeholder updates to keep the team informed and aligned. Risks and blockers follow a defined escalation path from the delivery team to the PM, Product Lead, and sponsor when necessary, while a single source of truth such as the project README or release doc keeps status consistent. This rhythm helps the group surface issues early, make timely decisions, and maintain transparency across cross-functional stakeholders.
 
-Quality assurance is treated as a continuous part of delivery rather than a final checkpoint. The process expects unit, integration, and smoke testing when appropriate, plus linting, CI enforcement, and security scanning before deployment. Release activities include verifying acceptance criteria, smoke testing in staging, and documenting rollback plans, while retrospectives capture what went well, what can improve, and action items with owners and due dates. This creates a repeatable operating model that supports both execution discipline and continuous learning.
+Quality assurance is built into the operating model from planning through release. The process includes unit, integration, and smoke testing depending on the change, automated CI checks, security scanning, and manual QA when needed to validate feature acceptance. Before release, teams confirm acceptance criteria, prepare rollback and incident plans, and run post-deploy verification. Retrospectives at the end of sprints or milestones capture lessons learned, action items, and follow-up owners, creating a continuous improvement loop that helps the team adapt and deliver more effectively over time.
 
-## Related process documents
+## Process docs
 
 - [Project Management Overview](./octoacme-project-management-overview.md)
 - [Project Initiation](./octoacme-project-initiation.md)
@@ -19,10 +19,7 @@ Quality assurance is treated as a continuous part of delivery rather than a fina
 - [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
 - [Roles & Personas](./octoacme-roles-and-personas.md)
 
-## Core principles
+## Related references
 
-- Customer-first delivery and measurable outcomes
-- Iterative delivery with small, testable increments
-- Clear ownership and defined responsibilities
-- Data-informed decision making
-- Psychological safety and continuous improvement
+- [Repository README](../README.md)
+- [Issue template for process doc updates](../.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml)
